@@ -7,5 +7,4 @@ meal ={
 
 print(meal["drink"]) #prints beer
 
-# print("For dinner I'm having %s with %s to drink!" % (meal["entree"], (meal["drink"]))
-
+print("For dinner I'm having %s with %s to drink!" % (meal["entree"], meal["drink"]))

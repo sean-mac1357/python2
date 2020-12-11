@@ -1,4 +1,4 @@
-{
+ramit = {
   'name': 'Ramit',
   'email': 'ramit@gmail.com',
   'interests': ['movies', 'tennis'],
@@ -17,4 +17,13 @@
   'friends_count': 2
 }
 
-def countFriends(dictionary, key, new_key)
+def countFriends(dictionary, key, new_key):
+  friends_count = 0
+  for friends in dictionary[key]:
+    friends_count += 1
+  # print(friends_count)
+  new_dictionary = dictionary
+  new_dictionary[new_key] = friends_count
+  print(new_dictionary)
+  return new_dictionary
+countFriends(ramit, 'friends', 'friends_count')
