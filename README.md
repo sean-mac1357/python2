@@ -1,0 +1,3 @@
+# Python Assignment #2
+
+This repository will contain the class exercises for lists, dictionaries, loops, numbers, sorting, and etc...

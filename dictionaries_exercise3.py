@@ -14,7 +14,6 @@ ramit = {
       'interests': ['movies', 'tv']
     }
   ],
-  'friends_count': 2
 }
 
 def countFriends(dictionary, key, new_key):
